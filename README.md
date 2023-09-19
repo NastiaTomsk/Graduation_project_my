@@ -36,7 +36,7 @@ order_body = {
     ]
 }
 
-6.Создать фаил: request_order.py
+6. Создать фаил: request_order.py
 import configuration
 import data
 import requests
