@@ -8,6 +8,7 @@
 План:
 1. Прописать python в консоли 
 2. Создать новый проект и принудить туда venv через консоль пайчарма: 
+
 python -m venv venv
 pip install pytest
 pip install requests
