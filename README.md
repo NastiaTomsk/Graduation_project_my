@@ -6,22 +6,21 @@
 ●	pytest
 
 План:
-1. Прописать python в консоли 
-2. Создать новый проект и принудить туда venv через консоль пайчарма: 
+1. Создать новый проект и принудить туда venv через консоль пайчарма: 
 
 python -m venv venv
 pip install pytest
 pip install requests
 
-3. Запустить сервер
+2. Запустить сервер
 
-4. Создать фаил: configuration.py
+3. Создать фаил: configuration.py
 
 URL = "Вставить URL"
 CREATE_NEW_ORDER = "/api/v1/orders"
 ORDER_TRACK_INFO = "/api/v1/orders/track?t="
 
-5. Создать фаил: data.py
+4. Создать фаил: data.py
 
 order_body = {
     "firstName": "Anastasia",
@@ -37,7 +36,7 @@ order_body = {
     ]
 }
 
-6. Создать фаил: request_order.py
+5. Создать фаил: request_order.py
 import configuration
 import data
 import requests
@@ -51,7 +50,7 @@ def order_track_info(order_track):
     order_info = requests.get(configuration.URL+configuration.ORDER_TRACK_INFO+order_track)
     return order_info
 
-7.Создать фаил: order_test.py
+6.Создать фаил: order_test.py
 import data
 import request_order
 import pytest
@@ -62,13 +61,13 @@ def test_order_info ():
     expect = 200
     assert requests == expect
 
-8. Прогнать тест
+7. Прогнать тест
 
-9. Добавить .gitignore в папку проекта с файлами
+8. Добавить .gitignore в папку проекта с файлами
 
-10. Заполнить README.md
+9. Заполнить README.md
 
-11. Закоммитить все это в GitHub
+10. Закоммитить все это в GitHub
 
 
 
