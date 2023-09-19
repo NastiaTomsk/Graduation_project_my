@@ -6,7 +6,7 @@
 ●	pytest
 
 План:
-1. Прописать python в консоли cmd и git (и в терминале Pycharm)
+1. Прописать python в консоли 
 2. Создать новый проект и принудить туда venv через в консоли пайчарма код: 
 python -m venv venv
 pip install pytest
