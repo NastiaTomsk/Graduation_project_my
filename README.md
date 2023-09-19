@@ -6,9 +6,9 @@
 ●	pytest
 
 План:
-1. Создать новый проект и принудить туда venv через консоль пайчарма: 
+1. Создать новый проект и через консоль пайчарма: 
 
-python -m venv venv
+python -m venv venv (принудить venv)
 pip install pytest
 pip install requests
 
